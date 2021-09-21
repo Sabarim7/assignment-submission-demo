@@ -1,0 +1,71 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynday 1",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNQ17nQw9sxF5CL/vjAINLr",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sabarim7/assignment-submission-demo/blob/main/day%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "1NsM4peY11IE"
+      },
+      "source": [
+        "# write a program which accpet princple ,rate and time form user and print the simple interest .the formula to calculate simple interest is:simple interest = principle X rate X time /100 solutioin"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F7cfDyst3SNn",
+        "outputId": "a12ce43b-256f-4ae2-de37-c7e16d2cb121"
+      },
+      "source": [
+        "principle = float(input(\"enter the principle amount\"))\n",
+        "rate = float(input(\"enter the rate of interest \"))\n",
+        "time = float(input(\"enter the time\"))\n",
+        "simple = principle*rate*time/100\n",
+        "print(simple)"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the principle amount1000\n",
+            "enter the rate of interest 1.5\n",
+            "enter the time5\n",
+            "75.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
